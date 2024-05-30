@@ -1,0 +1,38 @@
+body {
+    font-family: "outift", sans-serif;
+    background-color: #10002b;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+section {
+    background-color: #9119b3;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+#button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.form {
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 25px;
+}
